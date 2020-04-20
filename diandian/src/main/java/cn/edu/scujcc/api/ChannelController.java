@@ -55,7 +55,7 @@ public class ChannelController {
 	public ResponseEntity<String> deleteChannel(@PathVariable int id) {
 		boolean result = this.service.deleteChannel(id);
 		if (result) {
-		return ResponseEntity.ok().body("É¾³ý³É¹¦666");
+		return ResponseEntity.ok().body("É¾³ý³É¹¦");
 		} else {
 			return ResponseEntity.ok().body("É¾³ýÊ§°Ü");
 		}
